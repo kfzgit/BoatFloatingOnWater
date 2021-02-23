@@ -52,7 +52,6 @@ namespace Ceto
 			UpdateProperties();
 			
 		}
-
 		void FixedUpdate()
 		{
 
@@ -71,7 +70,6 @@ namespace Ceto
 			body.AddForce(TotalForces);
 
 		}
-
 		public void UpdateProperties()
 		{
 
@@ -81,11 +79,9 @@ namespace Ceto
 			
 			SurfaceArea = 4.0f * Mathf.PI * Mathf.Pow(radius, 2);
 
-		}
-		
+		}	
 		public void UpdateForces(Rigidbody body) 
 		{
-
 			if(Ocean.Instance == null)
 			{
 				BuoyantForce = Vector3.zero;
@@ -93,7 +89,6 @@ namespace Ceto
 				Stickyness = Vector3.zero;
 				return;
 			}
-
 			Vector3 pos = transform.position;
 
 			WaterHeight = Ocean.Instance.QueryWaves(pos.x, pos.z);
@@ -171,10 +166,7 @@ namespace Ceto
 			Gizmos.color = Color.red;
 			Gizmos.DrawWireSphere(transform.position, radius);
 		}
-
-		
-	}
-	
+	}	
 }
 
 

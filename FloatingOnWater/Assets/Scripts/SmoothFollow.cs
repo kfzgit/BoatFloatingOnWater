@@ -3,8 +3,8 @@ using System.Collections;
 
 public class SmoothFollow : MonoBehaviour {
 	public Transform target;
-	public float distance = 3.0f;
-	public float height = 3.0f;
+	public float distance = 10.0f;
+	public float height = 5.0f;
 	public float damping = 5.0f;
 	public bool smoothRotation = true;
 	public float rotationDamping = 10.0f;
