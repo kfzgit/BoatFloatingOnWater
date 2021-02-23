@@ -1,0 +1,353 @@
+{
+    "name": "InputCtrl",
+    "maps": [
+        {
+            "name": "streerCtrl",
+            "id": "1cfa0183-f3ea-4f3d-8b29-822221aaefc5",
+            "actions": [
+                {
+                    "name": "streeringLeft",
+                    "type": "Button",
+                    "id": "2d2018b7-dd55-44dd-8a27-c1883d8d3a40",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "streeringRight",
+                    "type": "Button",
+                    "id": "891521c6-a220-4b40-947b-4910329d2eca",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "X",
+                    "type": "Button",
+                    "id": "36ffc64c-8533-4023-b407-62969477677c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "O",
+                    "type": "Button",
+                    "id": "a52e3128-5ab4-48d5-9c25-c7ebb1ca08ec",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Square",
+                    "type": "Button",
+                    "id": "93233afd-c485-4ecf-acab-e227bdd57d62",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Triangle",
+                    "type": "Button",
+                    "id": "22246054-9753-4c79-b8fa-01f260ce9cc5",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Up",
+                    "type": "Button",
+                    "id": "49a07c12-9a3f-44ca-bfa7-11f44d33101c",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "a3a909b4-8092-4221-8ee7-5792e46696d8",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Left",
+                    "type": "Button",
+                    "id": "90805a36-2b59-4079-859d-67450f492eaa",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Right",
+                    "type": "Button",
+                    "id": "5a207e07-739e-4fb7-9614-1fb6656e3204",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Plus",
+                    "type": "Button",
+                    "id": "56605b43-8556-46f8-bdba-636aea288c59",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Less",
+                    "type": "Button",
+                    "id": "2378c17e-d8b2-49d2-9720-f49e21a80470",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6ceda49e-4b11-4476-a685-b6bdd5688827",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/stick/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "streeringLeft",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58f7bed9-330d-442e-b726-8d2eaebc7ef9",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/stick/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "streeringRight",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5c1495a3-1d18-42e0-bbab-50d45ee3c334",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/trigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "X",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a47f29f5-32ed-4d7d-803a-ec95b708b1ab",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "O",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "244ee65f-bca3-43ce-b82a-c3a16405826c",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Square",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dbdcfc9e-e323-46b6-8cf0-7b60b686c945",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button4",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Triangle",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9e83b45f-5fd3-476b-b7f2-29a4765a6ed9",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "08cf0c05-9b58-49cf-b132-083c0bdb269d",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "c35a08ad-8376-4fbb-aa14-3e02c0edf4f6",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "056df2d9-d61c-4f49-88b2-140455b5754c",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/hat/right",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Right",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9b54d0cc-98ea-40e4-b9a5-524f67435b22",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button20",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Plus",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bfc4235-92d5-49b8-8f72-34695208d6d9",
+                    "path": "<HID::Logitech G29 Driving Force Racing Wheel>/button21",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Less",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "throttleCtrl",
+            "id": "42739901-2797-4bd1-9900-2169a5161551",
+            "actions": [
+                {
+                    "name": "UpThruster",
+                    "type": "Button",
+                    "id": "7cc47d66-2243-437e-9e72-cf58727f90c7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "DownThruster",
+                    "type": "Button",
+                    "id": "39cf02cb-6fef-419d-8c1b-691190a4c25f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "947e3569-0c10-47ae-8724-8be02a3e59dd",
+                    "path": "<HID::Mad Catz Saitek Pro Flight X-56 Rhino Throttle>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "UpThruster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1cf38780-0d16-4d08-95b6-3f5a42f00afb",
+                    "path": "<HID::Mad Catz Saitek Pro Flight X-56 Rhino Throttle>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "DownThruster",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "stickctrl",
+            "id": "84bca1c4-cc92-4a05-ba4b-c082d8732fc7",
+            "actions": [
+                {
+                    "name": "up",
+                    "type": "Value",
+                    "id": "13dc7194-c743-4cb7-a83e-5a8b0b50d4d3",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "down",
+                    "type": "Value",
+                    "id": "f2a03159-e87e-4ee5-9fd1-bf046698ec2b",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "left",
+                    "type": "Button",
+                    "id": "9a912abd-8c78-4de9-ade9-2e0474ba95dd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "647a6f67-7574-4ed2-a6a8-b4eacb39efa5",
+                    "path": "<Joystick>/stick/up",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "up",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "5e777c11-27b3-4c47-957d-805f0e5596df",
+                    "path": "<Joystick>/stick/down",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b47fa18e-6b3d-4c1a-9079-5f0c190edef0",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "left",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
