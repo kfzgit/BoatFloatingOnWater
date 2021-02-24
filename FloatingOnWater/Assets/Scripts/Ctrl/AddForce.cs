@@ -7,7 +7,7 @@ public class AddForce : MonoBehaviour
     [Range(1000f,2000f)]
     [SerializeField] private float PushForce = 1000f;
     public float forwardSpeed = 10;
-    public float roateSpeed = 50;
+    public float roateSpeed = 500;
     Rigidbody body;
     // Start is called before the first frame update
     void Start()
@@ -28,12 +28,12 @@ public class AddForce : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             Debug.Log("左转");
-            body.angularVelocity = -transform.up * roateSpeed;
+            body.angularVelocity = -transform.up * roateSpeed * body.velocity.magnitude;
         }
         if (Input.GetKey(KeyCode.D))
         {
             Debug.Log("右转");
-            body.angularVelocity = transform.up * roateSpeed;
+            body.angularVelocity = transform.up * roateSpeed * body.velocity.magnitude;
         }
     }
 }

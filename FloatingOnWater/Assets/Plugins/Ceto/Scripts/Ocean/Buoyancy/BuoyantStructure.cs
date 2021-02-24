@@ -64,8 +64,18 @@ namespace Ceto
 				torque += Vector3.Cross(r, f);
 
 			}
+            //if (transform.position.y > 0.8f+Ocean.Instance.QueryWaves(transform.position.x, transform.position.z))
+            //{
+            //    body.useGravity = true;
+            //    Debug.Log("海面以上");
+            //}
+            //else
+            //{
+            //    body.useGravity = false;
+            //    Debug.Log("海面以下");
 
-			body.maxAngularVelocity = maxAngularVelocity;
+            //}
+            body.maxAngularVelocity = maxAngularVelocity;
 			body.AddForce(force);
 			body.AddTorque(torque);
 		
